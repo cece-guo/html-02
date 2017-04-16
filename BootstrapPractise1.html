@@ -13,7 +13,7 @@
     <div class="container">
       <h2>表格</h2>
       <p>创建响应式表格 (将在小于768px的小型设备下水平滚动)。另外：添加交替单元格的背景色：</p>      
-      <div class="table-responsive">          
+      <div class="table-responsive"> <!--实现响应式表格，就要把table放在class="table-responsive"的div里面-->     
        <table class="table table-striped table-bordered">
          <thead>
            <tr>
@@ -54,8 +54,31 @@
       <p>打印图标: <span class="glyphicon glyphicon-print"></span></p>      
       <p>下载图标：<span class="glyphicon glyphicon-download"></span></p>      
     </div>
+	
+<!----------------------------------Bootsrap实现分列------------------------------------------------->
+	<div class="container">
+ <div class="jumbotron">
+    <h1>我的第一个 Bootstrap 页面</h1>
+    <p>重置窗口大小，查看响应式效果！</p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>学技术，从W3Cschool开始！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>学技术，从W3Cschool开始！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3> 
+      <p>学技术，从W3Cschool开始！</p>
+    </div>
+  </div>
+</div>
 
-    <!-- JavaScript 放置在文档最后面可以使页面加载速度更快 -->
+
+    <!----------------------- JavaScript 放置在文档最后面可以使页面加载速度更快 --------------------->
     <!-- 可选: 包含 jQuery 库 -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- 可选: 合并了 Bootstrap JavaScript 插件 -->
